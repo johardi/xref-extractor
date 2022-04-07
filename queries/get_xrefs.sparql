@@ -26,7 +26,6 @@ WHERE {
       STRSTARTS(STR(?xref_id),"ICD9CM:") || STRSTARTS(STR(?xref_id),"ICD9:") ||
       STRSTARTS(STR(?xref_id),"ICD10CM:") || STRSTARTS(STR(?xref_id),"ICD10:") ||
       STRSTARTS(STR(?xref_id),"OMIM:") ||
-      STRSTARTS(STR(?xref_id),"HMDB:") ||
       STRSTARTS(STR(?xref_id),"SNOMEDCT_US:") ||
       STRSTARTS(STR(?xref_id),"LINCS:") ||
       STRSTARTS(STR(?xref_id),"EFO:") ||
