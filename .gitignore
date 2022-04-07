@@ -2,3 +2,6 @@
 
 tmp
 mirror
+__pycache__
+
+*.mdb
